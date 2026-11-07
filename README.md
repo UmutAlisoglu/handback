@@ -4,7 +4,9 @@
 
 Bring the summary, next steps, decisions, open questions, links and screenshots into one project handover. Export a readable HTML packet that stays together, even offline.
 
-[Open Handback](https://alisoglu.com/handback/) · [Portable download](https://github.com/UmutAlisoglu/handback/releases/latest) · [Feedback](https://github.com/UmutAlisoglu/handback/issues)
+**[Download the portable app](https://github.com/UmutAlisoglu/handback/releases/latest)** (unzip, open `index.html`, works offline) · [Feedback](https://github.com/UmutAlisoglu/handback/issues)
+
+There is no hosted version at the moment. The portable download is the way to use Handback.
 
 ## What it’s useful for
 
@@ -49,7 +51,7 @@ Download and extract `Handback-1.0.0-portable.zip`, then open `index.html`. Keep
 
 Handback version 1 JSON up to 25 MB. Up to 100 tasks, 30 notes, 50 decisions, 50 questions and 60 links, plus the image limits above. Text fields are bounded and imported JSON is validated. Text is escaped in HTML exports; links are limited to HTTP and HTTPS.
 
-The app uses the current page’s memory. It makes no upload, analytics, font, API or account requests and saves no project history to cookies, localStorage or IndexedDB. The online app is hosted on GitHub Pages, which receives ordinary connection information when serving its public code. The portable editor works offline. Clear the working copy with New handover or close the tab when finished; downloads remain on your computer.
+The app uses the current page’s memory. It makes no upload, analytics, font, API or account requests and saves no project history to cookies, localStorage or IndexedDB. The portable editor works offline. Clear the working copy with New handover or close the tab when finished; downloads remain on your computer.
 
 ## Development
 
